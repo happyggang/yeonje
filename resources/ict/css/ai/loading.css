@@ -103,3 +103,47 @@
   line-height: 150%;
   letter-spacing: -1px;
 }
+
+@media (width: 1080px) {
+  .result {
+    width: 964px;
+    height: 1460px;
+    border-radius: 30px;
+    backdrop-filter: blur(45px);
+    padding: 40px;
+  }
+  
+  .loading_caption {
+    font-size: 30px;
+    letter-spacing: -0.75px;
+    margin-top: 30px;
+  }
+  
+  .loading_wrapper img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 159px;
+  }
+  
+  .saying_box_title {
+    font-size: 30px;
+    letter-spacing: -0.75px;
+    margin-bottom: 30px;
+  }
+  
+  .saying_box {
+    gap: 15px;
+  }
+  
+  .saying_box p {
+    width: 590px;
+    font-size: 35px;
+    letter-spacing: -0.875px;
+    margin-bottom: 15px;
+  }
+  
+  .saying_box span {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+  }
+}
