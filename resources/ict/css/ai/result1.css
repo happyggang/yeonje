@@ -26,14 +26,26 @@
 
 @media (width: 1080px) {
   .result {
-    width: 964;
+    /* width: 1928px */
+    /* 1928/2 = 964 */
+    width: 964px;
+    /* height: 2920px */
+    /* 2920/2 = 1460 */
     height: 1460px;
+    /* border-radius: 60px */
+    /* 60/2 = 30 */
     border-radius: 30px;
+    /* backdrop-filter: blur(90px) */
+    /* 90/2 = 45 */
     backdrop-filter: blur(45px);
+    /* padding: 80px */
+    /* 80/2 = 40 */
     padding: 40px;
-  }
-  
-  .result_scroll {
+}
+
+.result_scroll {
+    /* height: 2475px */
+    /* 2475/2 = 1237.5 -> 1238 */
     height: 1238px;
-  }
+}
 }
