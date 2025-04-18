@@ -1,17 +1,3 @@
-.content {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url("../../../ict/img/ai/ai_bg.png") no-repeat center center;
-  background-size: cover;
-  transition: top 0.8s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .result {
   width: 1928px;
   height: 2920px;
@@ -36,4 +22,18 @@
 
 .result_scroll::-webkit-scrollbar {
   display: none;
+}
+
+@media (width: 1080px) {
+  .result {
+    width: 964;
+    height: 1460px;
+    border-radius: 30px;
+    backdrop-filter: blur(45px);
+    padding: 40px;
+  }
+  
+  .result_scroll {
+    height: 1238px;
+  }
 }
