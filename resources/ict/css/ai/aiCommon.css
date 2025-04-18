@@ -12,7 +12,6 @@
   padding: 100px 117px 70px 115px;
   gap: 32px;
   justify-content: flex-start;
-  margin-bottom: 140px;
 }
 
 .header img {
@@ -66,6 +65,8 @@
 }
 
 .prompt {
+  width: 100%;
+  text-align: left;
   color: #FFF;
   font-family: "Pretendard-SemiBold", sans-serif;
   font-size: 70px;
@@ -73,9 +74,8 @@
   font-weight: 600;
   line-height: 150%;
   letter-spacing: -1.75px;
-  position: absolute;
-  top: 350px;
-  left: 116px;
+  margin-left: 260px;
+  margin-bottom: 40px;
 }
 
 .main_content {
@@ -87,6 +87,7 @@
   height: 100%;
   overflow: visible;
   transition: height 2s ease;
+  padding-bottom: 200px;
 }
 
 .content_wrapper {
@@ -496,7 +497,10 @@
     gap: 16px;
     /* margin-bottom: 140px */
     /* 140/2 = 70 */
-    margin-bottom: 70px;
+}
+
+.scroll {
+  padding-bottom: 100px;
 }
 
 .header img {
@@ -560,18 +564,10 @@
 }
 
 .prompt {
-    /* font-size: 70px */
-    /* 70/2 = 35 */
+    margin-left: 130px;
+    margin-bottom: 20px;
     font-size: 35px;
-    /* letter-spacing: -1.75px */
-    /* -1.75/2 = -0.875 -> -0.9 */
     letter-spacing: -0.9px;
-    /* top: 350px */
-    /* 350/2 = 175 */
-    top: 175px;
-    /* left: 116px */
-    /* 116/2 = 58 */
-    left: 58px;
 }
 
 .main_content {

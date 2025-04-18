@@ -21,7 +21,7 @@ $(document).ready(function () {
 			});
 		}
 
-		if (scrollHeight === 1560 || 780) {
+		if (scrollHeight === 1930 || 965) {
 			$('.full_mode').css('display', 'flex');
 		} else {
 			$('.full_mode').css('display', 'none');

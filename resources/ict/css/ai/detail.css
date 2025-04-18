@@ -21,6 +21,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 140px;
 }
 
 .detail_content_title {
@@ -436,6 +437,7 @@
 		height: 1460px;
 		border-radius: 40px;
 		border: 3px solid #121212;
+		margin-top: 70px;
 	}
 	
 	.detail_content_title {
